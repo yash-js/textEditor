@@ -1,0 +1,112 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.img-responsive{
+    max-width: 100%;
+}
+
+.hero__image{
+    background-image: url('heroimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+    
+}
+
+
+.hero__wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+
+    transform: translate(-50%, -50%);
+}
+
+.hero__wrapper h1{
+    font-size: 2.6rem;
+    margin: 0;
+    text-align: center;
+}
+
+.hero__image span{
+    margin-left: 2.8rem;
+    display: block;
+    margin-bottom: 0.6rem;
+    }
+
+
+.form__code .post__code{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 1.4rem;
+    padding: .5rem;
+    border: none;
+    outline: none;
+    
+}
+
+.form__code button{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #00bab1;
+    padding: .6rem;
+    border: none;
+    border-radius: 1.4rem;
+    margin-top: 1.2rem;
+    color: white;
+}
+
+/* Product section */
+
+.product{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.product__list__item{
+    float: left;
+    width: 32%;
+    margin-left: 0.5rem;
+    text-align: center;
+}
+.product__list__item img{
+    display: block;
+    margin: auto;
+}
+
+.product__list__item:first-of-type{
+    margin-left: 0;
+}
+footer{
+    background-color: #004;
+    padding:1rem;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 700px){
+    .product__list__item{
+        width: 100%;
+        float: none
+
+    }
+    .img-responsive{
+        width: 60%;
+    }
+}
+
+
+
